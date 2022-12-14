@@ -1,5 +1,3 @@
-package KOLOKWIUM_PROBNEV2;
-
 import java.util.Random;
 
 abstract public class Player {
