@@ -1,3 +1,5 @@
+package com.mycompany.main;
+
 import java.util.Random;
 
 abstract public class Player {
