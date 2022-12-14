@@ -1,5 +1,3 @@
-package KOLOKWIUM_PROBNEV2;
-
 import java.util.Scanner;
 
 public class PlayerHuman extends Player {
