@@ -1,29 +1,50 @@
-package com.mycompany.main;
+public class Game {
 
-public class Main {
+import java.util.ArrayList;
+import java.util.List; 
+import java.util.Random;
 
-    public static void main(String[] args) {
-        
-        Game game = new Game();
-        game.addPlayer(new PlayerComp("Stefan"));
-        game.addPlayer(new PlayerComp("Ziutek"));
+public class Game {
 
-        
-        for(int i=0; i<10; ++i)
-            game.play();
-        
-        game.printStatistics();
-    }
+    private Statistics statistics = new NullStatistics();
+    private Random dice = new Random();
+    private List<Player> players = new Arraylist<>();
+    
+    public Game(Statistics statistics) {
+        if (statistics != null)
+            this.statistics = statistics;
+}
+
+    public void addPlayer(Player player) {
+        if (nameExists(player.getName())) {
+            player.setName(player.getName() + dice.nextInt(10));
+            addPlayer(player);
+}
+        else players.add(player);
+}
+
+    private boolean nameExists(String name) {
+        for (Player player : players) {
+            if (player.getName().equals(name)) {
+            return
+}
+}
+}
+
+
+if (guess == number) {
+    System.out.println("Brawo!");
+    if (statistics != null)
+        statistics.winner(player);
+        repeat
 }
 
 
 
-//        game.printPlayers();
-//        game.removePlayer("Zocha");
-//        game.printPlayers();
 
 
 
-// int a; deklarujemy zmienna a typu int
-// int to typ danych/ 32 bity
-// zakres wartosci na bajcie
+
+public void printStatistics()
+}
+}
