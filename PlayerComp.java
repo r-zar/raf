@@ -1,3 +1,5 @@
+package players;
+
 public class PlayerComp extends Player {
     public PlayerComp(){
     }
@@ -10,4 +12,3 @@ public class PlayerComp extends Player {
     }
 
 }
-
