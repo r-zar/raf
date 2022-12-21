@@ -1,4 +1,4 @@
-package com.mycompany.main;
+package players;
 
 import java.util.Random;
 
