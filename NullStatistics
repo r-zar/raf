@@ -1,4 +1,9 @@
-public class NullStatistics extends Statistics{
+package Statistics;
+
+
+import players.Player;
+
+public class NullStatistics implements Statistics {
 
    public void winner(Player player) {}
    public void print() {}
